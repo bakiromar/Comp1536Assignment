@@ -1,24 +1,19 @@
-<!--Prototype CSS-->
-
-body{
-    font-family: Tahoma, Arial, sans-serif;
-    color: #EEFF41;
+body {
+	font-family: Times New Roman, Arial, sans-serif;
+	background-color: #ffffff;
+	color: black;
 }
 
-header {
-    background-color: #4CAF50;
-    color: #EEFF41;
+div#logo {
+    padding: 15px;
+    margin: 20px auto 0px auto;
+    text-align: center;
 }
+	
 div#login {
-     background-clip: padding-box;
-}   
-div#login a:link, a:visited {
-     text-decoration: none;
+	text-align: center;
 }
-div#login fieldset {
-    background-color: #0026ff;
-}
+	
 legend {
-    font-family: Georgia, Trebuchet MS, sans-serif;
-    color: #ff6a00;
+	display: none;
 }
