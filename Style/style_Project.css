@@ -6,14 +6,27 @@ body {
 
 div#logo {
     padding: 15px;
-    margin: 20px auto 0px auto;
+    
     text-align: center;
+}
+
+div#tagline {
+    text-align: center;
+    
 }
 	
 div#login {
 	text-align: center;
+    border-style: none;
+}
+fieldset {
+    border-style: none;
 }
 	
 legend {
 	display: none;
+}
+
+div#about {
+    
 }
