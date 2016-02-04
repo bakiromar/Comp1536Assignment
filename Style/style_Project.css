@@ -4,11 +4,12 @@ body {
 	color: black;
     width: 50em;
     margin: auto;
+}
+
+body#loginpage {
     animation: fadein 2s;
 }
 
-body#login {
-}
 @keyframes fadein {
         from { opacity: 0;}
         to   { opacity: 1; }
