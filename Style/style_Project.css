@@ -4,13 +4,16 @@ body {
 	color: black;
     width: 50em;
     margin: auto;
-    animation: fadein 1s;
+    animation: fadein 2s;
 }
 
-@keyframes fadein {
-    from { opacity: 0 }
-    to   { opacity: 1 }
+body#login {
 }
+@keyframes fadein {
+        from { opacity: 0;}
+        to   { opacity: 1; }
+}
+
 div#logo {
     padding: 15px;
     
@@ -19,6 +22,7 @@ div#logo {
 
 div#tagline {
     text-align: center;
+    font-style: italic;
     
 }
 	
@@ -58,10 +62,7 @@ input[type=submit] {
     font-weight: bold;
     width: 250px;
     cursor: pointer;
-    transition-duration: 0.2s;
-    
-   
-   
+    transition-duration: 0.2s;  
 }
 input[type=submit]:hover {
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.15), 0 17px 80px 0 rgba(0,0,0,0.12);
@@ -79,16 +80,16 @@ input[type=email] {
     border-radius: 2px;
     padding: 10px 15px;
     font-size: 15px;
-    width: 220px;  
-    transition-duration: 0.2s; 
-    transition-property: height;   
+    width: 220px;   
 }
 input[type=email]:hover {
+    transition-duration: 0.2s;
     box-shadow: inset 0 0 8px  rgba(0,0,0,0.1);
     
 }
 
 input[type=email]:focus {
+    transition-duration: 0.2s;
     outline-width: 0;
 }
 
@@ -97,16 +98,16 @@ input[type=password] {
     border-radius: 2px;
     padding: 10px 15px;
     font-size: 15px;
-    width: 220px;
-    transition-duration: 0.2s;
-    transition-property: height;
+    width: 220px;    
 }
 
 input[type=password]:hover {
+    transition-duration: 0.2s;
     box-shadow: inset 0 0 8px  rgba(0,0,0,0.1);
 }
 
 input[type=password]:focus {
+    transition-duration: 0.2s;
     outline-width: 0;
 }
 
