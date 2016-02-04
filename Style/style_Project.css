@@ -117,7 +117,7 @@ input[type=password]:focus {
 
 /* Header */
 
-ul {
+ul.header {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
@@ -127,13 +127,13 @@ ul {
 	background-color: #56BC8A;	
 }
 
-li {
+ul.header li {
 	display: inline;
 	float: right;
 	text-align: center;
 }
 
-li a {
+ul.header li a {
 	display: block;
 	width: 152px;
 	height: 52px;
@@ -142,7 +142,7 @@ li a {
 	font-size: 120%;
 }
 
-li a:hover {
+ul.header li a:hover {
 	background-color: #E8F5E9;
 	color: #808080;
 }
