@@ -2,7 +2,6 @@ body {
 	font-family: 'Roboto', sans-serif;
 	background-color: #EEEEEE;
 	color: black;
-    width: 50em;
     margin: auto;
 }
 
@@ -18,6 +17,8 @@ body#loginpage {
 div#about { 
    
     color: #808080;
+    width: 50em;
+    margin: auto;
 }
 
 /* Login Page */
@@ -112,6 +113,46 @@ input[type=password]:hover {
 input[type=password]:focus {
     transition-duration: 0.2s;
     outline-width: 0;
+}
+
+/* Header */
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 52px;
+	overflow: hidden;
+	background-color: #4CAF50;	
+}
+
+li {
+	display: inline;
+	float: right;
+	text-align: center;
+}
+
+li a {
+	display: block;
+	width: 152px;
+	height: 52px;
+	text-decoration: none;
+	color: #F5F5F5;
+	font-size: 120%;
+}
+
+li a:hover {
+	background-color: #E8F5E9;
+	color: #808080;
+}
+
+li.right a {
+	padding: 15px 0 0 0;
+}
+
+li#hlogo {
+	float: left;
 }
 
 /* General */
