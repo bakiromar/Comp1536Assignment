@@ -4,8 +4,18 @@ body {
 	color: black;
     width: 50em;
     margin: auto;
+    animation: fadein 2s;
 }
 
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
 div#logo {
     padding: 15px;
     
@@ -70,15 +80,16 @@ input[type=submit]:focus {
 }
 
 input[type=email] {
-    border: none;
+    border: 2px white;
     border-radius: 2px;
     padding: 10px 15px;
     font-size: 15px;
-    width: 218px;      
+    width: 220px;  
+    transition-duration: 0.2s;    
 }
 input[type=email]:hover {
     box-shadow: inset 0 0 8px  rgba(0,0,0,0.1);
-    transition-duration: 0.2s;
+    
 }
 
 input[type=email]:focus {
@@ -90,7 +101,7 @@ input[type=password] {
     border-radius: 2px;
     padding: 10px 15px;
     font-size: 15px;
-    width: 218px;
+    width: 220px;
     transition-duration: 0.2s;
 }
 
