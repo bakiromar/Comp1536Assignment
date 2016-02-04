@@ -15,6 +15,13 @@ body#loginpage {
         to   { opacity: 1; }
 }
 
+div#about { 
+   
+    color: #808080;
+}
+
+/* Login Page */
+
 div#logo {
     padding: 15px;
     
@@ -31,6 +38,9 @@ div#login {
 	text-align: center;
     border-style: none;
 }
+
+/* Form Settings */
+
 fieldset {
     border-style: none;
     margin-top: 1px;
@@ -41,15 +51,6 @@ legend {
 	display: none;
 }
 
-div#about { 
-   
-    color: #808080;
-}
-h1 {
-    text-align: center;
-    color: black;
-
-}
 input[type=submit] {
     background-color: #4C75C6;
     border-radius: 2px;
@@ -112,4 +113,10 @@ input[type=password]:focus {
     outline-width: 0;
 }
 
+/* General */
+
+h1 {
+    text-align: center;
+    color: black;
+}
 
