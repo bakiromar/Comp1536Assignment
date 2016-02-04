@@ -92,7 +92,6 @@ input[type=email]:hover {
 }
 
 input[type=email]:focus {
-    transition-duration: 0.2s;
     outline-width: 0;
 }
 
@@ -110,7 +109,6 @@ input[type=password]:hover {
 }
 
 input[type=password]:focus {
-    transition-duration: 0.2s;
     outline-width: 0;
 }
 
