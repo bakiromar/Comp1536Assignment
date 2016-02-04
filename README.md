@@ -1,7 +1,10 @@
 # Comp1536Assignment
 
-Welcome to our assignment GitHub.
-The easiest way to access and change these files is using Microsoft WebMatrix like Carly showed us in class.
-Please push any changes you make as often as possible so nobody is working on the same thing at the same time.
+ATTENTION PLEASE READ
+
+Please keep the CSS sheet organized so that when stuff starts going wrong we don't 
+wanna kill ourselves finding that one tiny error in a thousand lines of code. Use comments
+to keep different tags in different sections, and if you're changing an existing element
+add your CSS in the section for that element (like the forms that we've done)
 
 -Geoff
