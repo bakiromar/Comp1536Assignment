@@ -184,6 +184,41 @@ li#hlogo {
 	float: left;
 }
 
+/* List Header */
+
+ul.listheader {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+    position: fixed;
+	width: 100%;
+	height: 20px;
+	overflow: hidden;
+	background-color: #EEEEEE;
+    display: table;	
+}
+
+ul.listheader li {
+	display: table-cell;
+	text-align: center;
+    width:  33%;
+}
+
+ul.listheader li a {
+	display: block;
+	height: 20px;
+	text-decoration: none;
+	color: #808080;
+	font-size: 100%;
+}
+
+ul.listheader li a:hover {
+    border-bottom-width: 2px;
+    border-bottom-color: #808080;
+    border-bottom-style: solid;
+    font-weight:  bold;
+}
+
 /* accounthome.html */
 
 
