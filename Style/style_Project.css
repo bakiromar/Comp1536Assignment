@@ -142,9 +142,9 @@ input[type=text]:focus {
     outline-width: 0;
 }
 
-/* Header */
+/* Account Header */
 
-ul.header {
+ul.accheader {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
@@ -156,13 +156,13 @@ ul.header {
 	background-color: #56BC8A;	
 }
 
-ul.header li {
+ul.accheader li {
 	display: inline;
 	float: right;
 	text-align: center;
 }
 
-ul.header li a {
+ul.accheader li a {
 	display: block;
 	width: 152px;
 	height: 52px;
@@ -171,7 +171,7 @@ ul.header li a {
 	font-size: 120%;
 }
 
-ul.header li a:hover {
+ul.accheader li a:hover {
 	background-color: #E8F5E9;
 	color: #808080;
 }
@@ -186,11 +186,11 @@ li#hlogo {
 
 /* accounthome.html */
 
-div.container {
-    margin-top: 60px;
-}
+
 
 /* General */
 
-
+div.container {
+    margin-top: 60px;
+}
 
