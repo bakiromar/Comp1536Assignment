@@ -40,6 +40,11 @@ div#login {
     border-style: none;
 }
 
+div#about h1 {
+    text-align: center;
+    color: black;
+}
+
 /* Form Settings */
 
 fieldset {
@@ -157,8 +162,5 @@ li#hlogo {
 
 /* General */
 
-h1 {
-    text-align: center;
-    color: black;
-}
+
 
