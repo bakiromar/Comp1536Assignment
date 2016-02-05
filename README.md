@@ -2,7 +2,7 @@
 
 MEMO 1
 
-For all pages with a header, all non-header content must be contained in a <div class="container"></div>
+For all pages with a header, all non-header content must be contained in a 'div class="container"'
 The container class has a margin-top that pushes content down so it shows below the fixed header.
 
 ATTENTION PLEASE READ
