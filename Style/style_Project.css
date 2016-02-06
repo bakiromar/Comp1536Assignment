@@ -227,6 +227,7 @@ ul.listheader li a:hover {
 
 /* General */
 
+
 div.container {
     margin-top: 60px;
 }
@@ -236,3 +237,42 @@ div.container {
 	margin-right: auto;
 	margin-left: auto;
 }
+ /* List Main */
+
+#listmain h1 {
+	
+	margin: 100px 10px 0px 100px;
+	padding: 10px 10px 10px 10px;
+} 
+#listmain h2 {
+	margin: 0px 0px 0px 80px;	
+}
+#listmain h3 {
+	margin: 0px 0px 0px 80px;
+}
+#listmain ul{
+	padding: 10px 10px 0 10px;
+	margin: 0 0 10px 80px;
+	list-style-type: none;
+}
+#listmain a:link {
+	text-decoration: none;
+}
+#listmain a:visited {
+	color: #000000;
+}
+#listmain a:hover{
+	color: #808080;
+}
+#listmain li{
+	display: block;
+	margin: 5px 0 5px 0;
+}
+
+#listmain img {
+	margin: 0px 0px 0px 0px;
+	float: left;
+	width: 20px;
+	height: 20px;
+}
+
