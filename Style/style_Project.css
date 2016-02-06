@@ -225,6 +225,7 @@ ul.listheader li a:hover {
 
 /* General */
 
+
 div.container {
     margin-top: 60px;
 }
@@ -234,3 +235,32 @@ div.container {
 	margin-right: auto;
 	margin-left: auto;
 }
+ /* List Main */
+
+#listmain ul{
+	padding: 10px 10px 0 10px;
+	margin: 0 0 10px 80px;
+	list-style-type: none;
+}
+#listmain a:link {
+	text-decoration: none;
+}
+#listmain a:visited {
+	color: #000000;
+}
+#listmain a:hover{
+	color: #808080;
+}
+#listmain li{
+	display: block;
+	margin: 5px 0 5px 0;
+}
+
+.addList img {
+	border: thin dashed red;
+	margin: 20px 2px 0px -10px;
+	float: left;
+	width: 30px;
+	height: 30px;
+}
+
