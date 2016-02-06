@@ -237,6 +237,17 @@ div.container {
 }
  /* List Main */
 
+#listmain h1 {
+	
+	margin: 100px 10px 0px 100px;
+	padding: 10px 10px 10px 10px;
+} 
+#listmain h2 {
+	margin: 0px 0px 0px 80px;	
+}
+#listmain h3 {
+	margin: 0px 0px 0px 80px;
+}
 #listmain ul{
 	padding: 10px 10px 0 10px;
 	margin: 0 0 10px 80px;
@@ -256,11 +267,10 @@ div.container {
 	margin: 5px 0 5px 0;
 }
 
-.addList img {
-	border: thin dashed red;
-	margin: 20px 2px 0px -10px;
+#listmain img {
+	margin: 0px 0px 0px 0px;
 	float: left;
-	width: 30px;
-	height: 30px;
+	width: 20px;
+	height: 20px;
 }
 
