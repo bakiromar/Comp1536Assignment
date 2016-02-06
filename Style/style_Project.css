@@ -191,7 +191,9 @@ ul.listheader {
 	margin: 0;
 	padding: 0;
     position: fixed;
-	width: 100%;
+	width: 60%;
+    margin-left: 20%;
+    margin-right: auto;
 	height: 20px;
 	overflow: hidden;
 	background-color: #EEEEEE;
