@@ -58,7 +58,7 @@ legend {
 }
 
 input[type=submit] {
-    background-color: #4C75C6;
+    background-color: #5085E0;
     border-radius: 2px;
     padding: 10px 15px; 
     border: none;
@@ -74,7 +74,7 @@ input[type=submit] {
 }
 input[type=submit]:hover {
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.15), 0 17px 80px 0 rgba(0,0,0,0.12);
-    background-color: #5085E0;
+    background-color: RED;
     transition-duration: 0.2s;
 }
 
@@ -230,11 +230,31 @@ div.container {
     margin-top: 60px;
 }
 
+/* Sign Up */
+
 #signup {
-	width: 560px;
+	width: 300px;
 	margin-right: auto;
 	margin-left: auto;
 }
+
+#password2{
+	padding: 
+}
+/* The element to apply the animation to */
+/* #createaccount {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+/* The animation code */
+
+}
+
+
  /* List Main */
 
 #listmain h1 {
