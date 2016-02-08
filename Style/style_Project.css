@@ -1,6 +1,6 @@
 body {
 	font-family: 'Roboto', sans-serif;
-	background-color: #EEEEEE;
+	background-color: #56BC8A;
 	color: black;
     margin: auto;
 }
@@ -16,7 +16,7 @@ body#loginpage {
 
 div#about { 
    
-    color: #808080;
+    color: white;
     width: 50em;
     margin: auto;
 }
@@ -29,9 +29,25 @@ div#logo {
     text-align: center;
 }
 
+div#center {
+    position: relative;
+    margin: auto;
+    width: 1440px;
+        
+}
+div#background {
+    position: absolute;
+    z-index: -1; 
+    left:  0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 div#tagline {
     text-align: center;
     font-style: italic;
+    font-size: 2em;
     
 }
 	
@@ -42,7 +58,7 @@ div#login {
 
 div#about h1 {
     text-align: center;
-    color: black;
+    color: white;
 }
 
 /* Form Settings */
@@ -58,11 +74,11 @@ legend {
 }
 
 input[type=submit] {
-    background-color: #4C75C6;
+    background-color: #55E4EF;
     border-radius: 2px;
     padding: 10px 15px; 
     border: none;
-    color: white;
+    color: rgba(0,0,0,0.45);
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -73,8 +89,9 @@ input[type=submit] {
       
 }
 input[type=submit]:hover {
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.15), 0 17px 80px 0 rgba(0,0,0,0.12);
-    background-color: #5085E0;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.15), 0 17px 80px 0 rgba(0,0,0,0.12);
+    background-color: #3A9CA3;
+    color: white;
     transition-duration: 0.2s;
 }
 
@@ -232,11 +249,28 @@ div.container {
     margin-top: 60px;
 }
 
+/* Sign Up */
+
 #signup {
-	width: 560px;
+	width: 300px;
 	margin-right: auto;
 	margin-left: auto;
 }
+
+#password2{
+	padding: 15px; 
+}
+/* The element to apply the animation to */
+/* #createaccount {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+/* The animation code */
+
  /* List Main */
 
 #listmain h1 {
