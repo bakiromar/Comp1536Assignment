@@ -22,39 +22,31 @@
 
         <div class = "container">
             <div id = "lists">
-            <h1>Account Settings</h1>
-              
-            <h2>Change Password</h2>	
+			<h1>Account Settings</h1>	
 			
 			<form action="action_page.php">
-            Enter old Password: <input type="text" name="user">
-            <br><br>
-            Enter new Password: <input type="text" name="user">
-            <br><br>
-			Re-Enter new Password: <input type="text" name="user">
-            <br><br>
-            <input type="submit">
-</form>
+			<p>Enter current password to make changes: <br>
+			<input type="text" name="user"></p>
+            
+			<h2>Change Password</h2>
+				<p>Enter new Password: <input type="text" name="user">
+				<br>
+				Re-Enter new Password: <input type="text" name="user">
+				</p>
 
+			<h2>Change Email</h2>				
+				<p>Enter new email: <input type="text" name="user"></p>
 
-         <h2>Change Email</h2>	
+			<h2>Delete Account</h2>	
 			
-			<form action="action_page.php">
-            Enter new email: <input type="text" name="user">
-            <br><br>
+            <p>Yes&nbsp;<input type="radio" name = "delete" value = "yes">&nbsp;
+			No&nbsp;<input type = "radio" name = "delete" value = "no"></p>
+            
             
             <input type="submit">
-			
-			 <h2>Delete Account</h2>	
-			
-			<form action="action_page.php">
-            Enter account: <input type="text" name="user">
-            <br><br>
-            
-            <input type="submit">
-</form>
-</form>
+			</form>
                 
+            </div>
         </div>
     </body>
 </html>
