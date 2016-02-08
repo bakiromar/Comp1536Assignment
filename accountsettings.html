@@ -15,51 +15,45 @@
             <ul class = "accheader">
 				<li id = "hlogo"><a href="accounthome.html" id = "hlogo"><img src="images/header_logo.png" alt="Logo"/></a></li>
 				<li class = "right"><a href = "index.html">Log Out</a></li>
-				<li class = "right"><a href = "accounthome.html">Home Page</a></li>
+				<li class = "right"><a href = "accountsettings.html">Account Settings</a></li>
 			</ul>
 			
         </header>
 
         <div class = "container">
-            
+            <div id = "lists">
             <h1>Account Settings</h1>
               
-            <div id="lists">
+            	
 			
-			<div class = "flex">
-				<h3>Change account settings</h3>	
-					<form action="settings.html">
-						<select name= password>
-							<option value="Change Password">Change Password</option>  
-							<option value="Change Email">Change Email</option>
-							<option value="Delete Account">Delete Account</option>					
-						</select>
-					</form>
-			</div>
-				
+			<form action="action_page.php">
+            <p>Enter current password to make changes: <br>
+            <input type="text" name="user">
+            </p>
+
+            <h2>Change Password</h2>
+            <p>Enter new Password: <input type="text" name="user">
+            <br>
+			Re-enter new Password: <input type="text" name="user">
+            </p>
+            
+            <h2>Change Email</h2>	
 			
-			<div class = "flex">
-				<h3>Settings2</h3>
-					<form action="Settings1">
-						<select name= Settings1>
-							<option value="Item1">Item1</option>
-							<option value="Item2">Item2</option>
-							<option value="Item3">Item3</option>					
-						</select>
-					</form>
-		
-			</div>
-			<div class = "flex">
-				<h3>Settings3</h3>
-					<form action="Settings1">
-						<select name= Settings1>
-							<option value="Item1">Item1</option>
-							<option value="Item2">Item2</option>
-							<option value="Item3">Item3</option>					
-						</select>
-					</form>
+            Enter new email: <input type="text" name="user">
+            <br><br>
+            
+            
+			
+			<h2>Delete Account</h2>	
+			
+            <p>Yes&nbsp;<input type = "radio" name = "delete" value = "yes">&nbsp;
+            No&nbsp;<input type = "radio" name = "delete" value = "no" checked></p>
+            
+            <input type="submit">
+
+            </form>
+                
             </div>
-			</div>
-		</div>
+        </div>
     </body>
 </html>
