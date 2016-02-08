@@ -82,6 +82,7 @@ legend {
 input[type=submit] {
     background-color: #55E4EF;
     border-radius: 2px;
+	margin: 15px 0px 0px 15px;
     padding: 10px 15px; 
     border: none;
     color: rgba(0,0,0,0.45);
@@ -114,6 +115,7 @@ input[type=submit].add {
 input[type=email] {
     border: 2px white;
     border-radius: 2px;
+	margin: 15px 0px 0px 15px;
     padding: 10px 15px;
     font-size: 15px;
     width: 220px;   
@@ -132,6 +134,7 @@ input[type=email]:focus {
 input[type=password] {
     border: none;
     border-radius: 2px;
+	margin: 15px 0px 0px 15px;
     padding: 10px 15px;
     font-size: 15px;
     width: 220px;    
@@ -150,7 +153,8 @@ input[type=password]:focus {
 input[type=text] {
     border: 2px white;
     border-radius: 2px;
-    padding: 10px 15px;
+	margin: 15px 0px 0px 15px;
+    padding: 10px 15px 10px 10px;
     font-size: 15px;
     width: 220px;   
 }
@@ -168,6 +172,7 @@ input[type=text]:focus {
 /* Account Header */
 
 ul.accheader {
+	
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
@@ -210,28 +215,25 @@ li#hlogo {
 /* List Header */
 
 ul.listheader {
+	float: left;
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-    position: fixed;
-	width: 60%;
-    margin-left: 20%;
-    margin-right: auto;
+    position: static;
+	width: max-width;
 	height: 20px;
 	overflow: hidden;
 	background-color: #EEEEEE;
-    display: table;	
 }
 
 ul.listheader li {
-	display: table-cell;
+	display: inline-block;
 	text-align: center;
-    width:  33%;
+	margin: 0px 0px 0px 0px;
+    padding: 0 120px 0 110px;
 }
 
 ul.listheader li a {
-	display: block;
-	height: 20px;
 	text-decoration: none;
 	color: #808080;
 	font-size: 100%;
@@ -252,9 +254,24 @@ ul.listheader li a:hover {
 
 
 div.container {
-    margin-top: 60px;
+    margin: 60px 0px 0px 0px;
+	padding: 0px 10px 10px 10px;
+	
 }
-
+div.container>.flex>.listheader {
+	margin: 0 0 10px 0;
+}
+div.container h1{
+	margin: auto;
+	padding: 0 0 0 10px;
+}
+div.container>#listmain>.indent img{
+	border: 1px ridge;
+	border-radius: 2px;
+}
+div.container>#listmain>.indent img:hover{
+	background-color: #E8F5E9;
+}
 /* Sign Up */
 
 #signup {
@@ -278,9 +295,9 @@ div.container {
 /* The animation code */
 
  /* List Main */
+ /* addlist.html addevent.html*/
 
 #listmain h1 {
-	
 	margin: 100px 10px 0px 100px;
 	padding: 10px 10px 10px 10px;
 } 
@@ -316,3 +333,76 @@ div.container {
 	height: 20px;
 }
 
+
+/* Add List Item*/
+/* additemlist.html */
+
+#additem {
+	margin: 20px 0px 0px 100px;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	flex-direction: column;
+	width: max-width;
+	height: max-height;
+}
+#additem .flex {
+	margin: 10px;
+	padding: 10px 0px 10px 0px;
+}
+#additem>.flex  h3 {
+	float: left;
+}
+
+#additem>.flex  img {
+	border: thin solid;
+	border-radius: 5px;
+	padding: 30px;
+}
+#additem>.flex  a {
+	display: block;
+	border-radius: 5px;
+	height: 100px;
+	width: 100px;
+	margin: 0 0 0 20px;
+	text-decoration: none;
+	color: #000000;
+}
+#additem>.flex  a:hover {
+	background-color: #E8F5E9;
+	color: #808080;
+}
+#additem>.flex  h5 {
+	margin: 0px 0px 0px 20px;
+	padding: 10px 0px 0px 0px;
+}
+
+#additem select {
+	border: 2px ridge #CCCCCC;
+	appearance: none;
+	margin: 15px 0px 0px 60px;
+	padding: 10px 10px 10px 10px;
+}
+/* accountsettings.html */
+div.container #lists {
+	margin: 20px 0px 0px 100px;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	flex-direction: column;
+	width: max-width;
+	height: max-height;
+}
+div.container #lists select {
+	border: 2px ridge #CCCCCC;
+	appearance: none;
+	margin: 15px 0px 0px 60px;
+	padding: 10px 10px 10px 10px;
+}
+div.container>#lists>.flex {
+	margin: 10px;
+	padding: 10px 0px 10px 0px;
+}
+div.container>#lists>.flex h3 {
+	float: left;
+}

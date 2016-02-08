@@ -10,7 +10,7 @@
     </head>
     <body>
        <header>
-		
+			
             <ul class = "accheader">
 				<li id = "hlogo"><a href="accounthome.html" id = "hlogo"><img src="images/header_logo.png" alt="Logo"/></a></li>
 				<li class = "right"><a href = "index.html">Log Out</a></li>
@@ -19,7 +19,7 @@
 			
         </header>
         
-        <div class = "container">
+        <div class = "container"> 
 			<div class="flex">
 			<ul class = "listheader">
 				<li><a href = "accounthome.html">Home</a></li>
@@ -27,7 +27,39 @@
                 <li><a href = "changelog">Changelog</a></li>
                 <li><a href = "accountsettings.html">List Settings</a></li>
             </ul>
-			</div>			
-        </div>
+			</div>
+			<h1>Add Item</h1>
+			
+			<div id="additem">
+	
+				<div class="flex">
+					<h3>&nbsp;&nbsp;&nbsp;Category:</h3>
+						<form action="#">
+							<select type="list" id="category">
+								<option value="#">Produce</option>  
+								<option value="#">Meat/Dairy</option>
+								<option value="#">Baked Goods</option>
+								<option value="#">Other</option>
+							</select>
+						</form>
+				</div>
+			
+				<div class="flex">
+					<h3>Item Name:</h3>
+						<input type = "text" placeholder = "Item Name">
+				</div>
+			
+			
+				<div id="addpicture" class="flex">
+					<a href="#"><img src="images/add_small.png" alt="Plus Sign" width="40px" height="40px"></a>
+					<h5>Add Picture</h5>
+				</div>
+			</div>
+			
+			
+			
+			
+			
+		</div>
     </body>
 </html>

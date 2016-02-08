@@ -21,51 +21,45 @@
         </header>
 
         <div class = "container">
-            <div id = "lists">
+            
             <h1>Account Settings</h1>
               
-            <h2>Change account settings</h2>	
+            <div id="lists">
 			
-			<div class = "DropDown">
+			<div class = "flex">
+				<h3>Change account settings</h3>	
+					<form action="settings.html">
+						<select name= password>
+							<option value="Change Password">Change Password</option>  
+							<option value="Change Email">Change Email</option>
+							<option value="Delete Account">Delete Account</option>					
+						</select>
+					</form>
+			</div>
+				
 			
-                <form action="settings.html">
-				  <select name= password>
-				    <option value="Change Password">Change Password</option>  
-					<option value="Change Email">Change Email</option>
-                    <option value="Delete Account">Delete Account</option>					
-                </select>
-				 <br><br>
-                 <input type="submit">
-                </form>
-			
-			<h2>Settings2</h2>
-			
-			<div class = "DropDown">
-			
-                <form action="Settings1">
-				  <select name= Settings1>
-				    <option value="Item1">Item1</option>
-					<option value="Item2">Item2</option>
-                    <option value="Item3">Item3</option>					
-                </select>
-                </form>
-			<h2>Settings3</h2>
-			
-			<div class = "DropDown">
-			
-                <form action="Settings1">
-				  <select name= Settings1>
-				    <option value="Item1">Item1</option>
-					<option value="Item2">Item2</option>
-                    <option value="Item3">Item3</option>					
-                </select>
-                </form>
+			<div class = "flex">
+				<h3>Settings2</h3>
+					<form action="Settings1">
+						<select name= Settings1>
+							<option value="Item1">Item1</option>
+							<option value="Item2">Item2</option>
+							<option value="Item3">Item3</option>					
+						</select>
+					</form>
 		
-			
+			</div>
+			<div class = "flex">
+				<h3>Settings3</h3>
+					<form action="Settings1">
+						<select name= Settings1>
+							<option value="Item1">Item1</option>
+							<option value="Item2">Item2</option>
+							<option value="Item3">Item3</option>					
+						</select>
+					</form>
             </div>
-			
-			
-                
-        </div>
+			</div>
+		</div>
     </body>
 </html>
