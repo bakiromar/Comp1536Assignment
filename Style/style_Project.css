@@ -400,12 +400,13 @@ div.container #lists select {
 	padding: 10px 10px 10px 10px;
 }
 div.container>#lists>.flex {
-	margin: 10px;
+	margin: 10px 10px 10px 0px;
 	padding: 10px 0px 10px 0px;
 }
 div.container>#lists>.flex h3 {
 	float: left;
 }
+
 
 /*  Changelog  */
 
@@ -418,4 +419,22 @@ div.container>#lists>.flex h3 {
 div.container>.flex>#tablelog th, td {
 	padding: 8px;
     text-align: center;
+}
+
+/*  Add Member  */
+#tablemember {
+	border-collapse: separate;
+	width: 100%;
+	empty-cells: hide;
+	table-layout: auto;
+}
+#tablemember th, td {
+	padding: 8px;
+	float: left;
+	margin: 0 0 0 100px;
+    text-align: center;
+}
+div.container>.flex h3 {
+	float: left;
+	margin: 25px 0 0 50px;
 }
