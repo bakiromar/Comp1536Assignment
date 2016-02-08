@@ -61,6 +61,12 @@ div#about h1 {
     color: white;
 }
 
+div#top {
+    display:  flexbox;
+    flex-flow: column;
+    height: 100%;
+}
+
 /* Form Settings */
 
 fieldset {
