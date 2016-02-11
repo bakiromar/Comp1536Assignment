@@ -5,7 +5,7 @@
         <meta charset="utf-8" />
         
         <!-- Added prototype 'link' attribute -->
-        <link rel="stylesheet" type="text/css" href="Style/style_Project.css">
+        <link rel="stylesheet" type="text/css" href="../Style/style_Project.css">
 
         <title>Share List</title>
     </head>
@@ -13,24 +13,23 @@
         <header>
 		
             <ul class = "accheader">
-				<li id = "hlogo"><a href="accounthome.html" id = "hlogo"><img src="images/header_logo.png" alt="Logo"/></a></li>
-				<li class = "right"><a href = "index.html">Log Out</a></li>
-				<li class = "right"><a href = "accountsettings.html">Account Settings</a></li>
+				<li id = "hlogo"><a href="../Account/accounthome.html" id = "hlogo"><img src="../images/header_logo.png" alt="Logo"/></a></li>
+				<li class = "right"><a href = "../index.html">Log Out</a></li>
+				<li class = "right"><a href = "../Account/accountsettings.html">Account Settings</a></li>
 			</ul>
 			
         </header>
 	
-        <div class = "container">
-			<div class="flex">
+        <div class = "outermain">
+			
 			<ul class = "listheader">
-				<li><a href = "accounthome.html">Home</a></li>
-				<li><a href = "addlistitem.html">Add Item</a></li>
-                <li><a href = "addmember">Add Member</a></li>
+                <li><a href = "addmember.html">Add Member</a></li>
                 <li><a href = "changelog.html">Changelog</a></li>
-                <li><a href = "accountsettings.html">List Settings</a></li>
-            </ul>
-			</div>
-				<div class="flex">
+                <li><a href = "listsettings.html">List Settings</a></li>
+            </ul>	
+			
+			<div class = "innermain">
+			
 					<h2>Current Members</h2>
 				<div id="tablemember">
 					<table>
@@ -64,9 +63,7 @@
 						</tbody>
 					</table>
 				</div>
-			</div>
 				
-			<div class="flex">
 				<h2>Add New Member</h2>	
 				<form action="action_page.php">
 					<h3>Email Address: </h3>
@@ -75,7 +72,6 @@
 					<input type="submit">
 				</form>	
             </div>
-		</div>
 		</div>
     </body>
 </html>

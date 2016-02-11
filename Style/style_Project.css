@@ -1,6 +1,6 @@
 body {
 	font-family: 'Roboto', sans-serif;
-	background-color: #56BC8A;
+	background-color: white;
 	color: black;
     margin: auto;
 }
@@ -215,31 +215,33 @@ li#hlogo {
 /* List Header */
 
 ul.listheader {
-	float: left;
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-    position: relative;
-	width: max-width;
+    position: fixed;
+	width: 70%;
 	height: 20px;
+	display: table;
 	overflow: hidden;
 	background-color: #EEEEEE;
 }
 
 ul.listheader li {
-	display: inline-block;
+	display: table-cell;
 	text-align: center;
-	margin: 0px 0px 0px 0px;
-    padding: 0px 120px 0px 55px;
+	width: 33%;
 }
 
 ul.listheader li a {
+	display: block;
+	height: 20px;
 	text-decoration: none;
 	color: #808080;
 	font-size: 100%;
 }
 
 ul.listheader li a:hover {
+	height: 18px;
     border-bottom-width: 2px;
     border-bottom-color: #808080;
     border-bottom-style: solid;
@@ -251,192 +253,16 @@ ul.listheader li a:hover {
 
 
 /* General */
-
-
-div.container {
-    margin: 60px 0px 0px 0px;
-	padding: 0px 10px 10px 10px;
-	
-}
-div.container>.flex>.listheader {
-	margin: 0 0 10px 0;
-}
-div.container h1{
-	margin: auto;
-	padding: 0 0 0 10px;
-}
-div.container>#listmain>.indent img{
-	border: 1px ridge;
-	border-radius: 2px;
-}
-div.container>#listmain>.indent img:hover{
-	background-color: #E8F5E9;
-}
-/* Sign Up */
-
-#signup {
-	width: 300px;
+div.outermain {
+	position: relative;
+	margin-top: 52px;
+	width: 70%;
+	margin-left: 15%;
 	margin-right: auto;
-	margin-left: auto;
+	background-color: #EEEEEE;
+	height: 100vh;	
 }
 
-#password2{
-	padding: 15px; 
-}
-
-
-/* The element to apply the animation to */
-/* #createaccount {
-    width: 100px;
-    height: 100px;
-    position: relative;
-    animation-name: example;
-    animation-duration: 4s;
-}
-
-/* The animation code */
-
- /* List Main */
- /* addlist.html addevent.html*/
-
-#listmain h1 {
-	margin: 100px 10px 0px 100px;
-	padding: 10px 10px 10px 10px;
-} 
-#listmain h2 {
-	margin: 0px 0px 0px 80px;	
-}
-#listmain h3 {
-	margin: 0px 0px 0px 80px;
-}
-#listmain ul{
-	padding: 10px 10px 0 10px;
-	margin: 0 0 10px 80px;
-	list-style-type: none;
-}
-#listmain a:link {
-	text-decoration: none;
-}
-#listmain a:visited {
-	color: #000000;
-}
-#listmain a:hover{
-	color: #808080;
-}
-#listmain li{
-	display: block;
-	margin: 5px 0 5px 0;
-}
-
-#listmain img {
-	margin: 0px 0px 0px 0px;
-	float: left;
-	width: 20px;
-	height: 20px;
-}
-
-
-/* Add List Item*/
-/* additemlist.html */
-
-#additem {
-	margin: 20px 0px 0px 100px;
-	display: -webkit-flex;
-	display: flex;
-	-webkit-flex-direction: column;
-	flex-direction: column;
-	width: max-width;
-	height: max-height;
-}
-#additem .flex {
-	margin: 10px;
-	padding: 10px 0px 10px 0px;
-}
-#additem>.flex  h3 {
-	float: left;
-}
-
-#additem>.flex  img {
-	border: thin solid;
-	border-radius: 5px;
-	padding: 30px;
-}
-#additem>.flex  a {
-	display: block;
-	border-radius: 5px;
-	height: 100px;
-	width: 100px;
-	margin: 0 0 0 20px;
-	text-decoration: none;
-	color: #000000;
-}
-#additem>.flex  a:hover {
-	background-color: #E8F5E9;
-	color: #808080;
-}
-#additem>.flex  h5 {
-	margin: 0px 0px 0px 20px;
-	padding: 10px 0px 0px 0px;
-}
-
-#additem select {
-	border: 2px ridge #CCCCCC;
-	appearance: none;
-	margin: 15px 0px 0px 60px;
-	padding: 10px 10px 10px 10px;
-}
-/* accountsettings.html */
-div.container #lists {
-	margin: 20px 0px 0px 100px;
-	display: -webkit-flex;
-	display: flex;
-	-webkit-flex-direction: column;
-	flex-direction: column;
-	width: max-width;
-	height: max-height;
-}
-div.container #lists select {
-	border: 2px ridge #CCCCCC;
-	appearance: none;
-	margin: 15px 0px 0px 60px;
-	padding: 10px 10px 10px 10px;
-}
-div.container>#lists>.flex {
-	margin: 10px 10px 10px 0px;
-	padding: 10px 0px 10px 0px;
-}
-div.container>#lists>.flex h3 {
-	float: left;
-}
-
-
-/*  Changelog  */
-
-#tablelog table {
-	border-collapse: separate;
-	width: 100%;
-	empty-cells: hide;
-	table-layout: auto;
-}
-div.container>.flex>#tablelog th, td {
-	padding: 8px;
-    text-align: center;
-}
-
-/*  Add Member  */
-#tablemember {
-	border-collapse: separate;
-	width: 100%;
-	empty-cells: hide;
-	table-layout: auto;
-}
-#tablemember th, td {
-	padding: 8px;
-	float: left;
-	margin: 0 0 0 100px;
-    text-align: center;
-}
-div.container>.flex h3 {
-	float: left;
-	margin: 25px 0 0 50px;
+div.innermain {
+	padding-top: 20px;
 }
