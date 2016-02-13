@@ -270,3 +270,37 @@ div.outermain {
 div.innermain {
 	padding-top: 20px;
 }
+
+/* Recent changes by Kuanysh */
+div.outermain {
+	position: relative;
+	margin: 52px auto 0px 15%;
+	width: 70%;
+	background-color: #EEEEEE;
+	height: 100h;	
+}
+div.innermain {
+	margin: 0px 0px 0px 50px;
+	padding-top: 10px;
+}
+
+
+/*  list.html */
+#list img {
+	padding: 1px;
+	height: 20px;
+	width: 20px;
+}
+.space img{
+	margin: 0 0 0 400px;
+}
+.addsign img {
+	padding: 2px;
+	margin: 0 0 0 60%;
+}
+/*  event.html */
+#event img {
+	padding: 1px;
+	height: 20px;
+	width: 20px;
+}
