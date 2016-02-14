@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        
+        <!-- Added prototype 'link' attribute -->
+        <link rel="stylesheet" type="text/css" href="../Style/style_Project.css">
+
+        <title>Settings</title>
+    </head>
+    <body>
+        <header>
+		
+            <ul class = "accheader">
+				<li id = "hlogo"><a href="accounthome.html" id = "hlogo"><img src="../images/header_logo.png" alt="Logo"/></a></li>
+				<li class = "right"><a href = "../index.html">Log Out</a></li>
+				<li class = "right"><a href = "accountsettings.html">Account Settings</a></li>
+			</ul>
+			
+        </header>
+
+        <div class = "outermain">
+			<h1>Account Settings</h1>	
+			
+			<form action="http://webdevfoundations.net/scripts/formdemo.asp">
+			<p>Enter current password to make changes: <br>
+			<input type="text" name="user"></p>
+            
+			<h2>Change Password</h2>
+				<p>Enter new Password: <input type="text" name="user">
+				<br>
+				Re-Enter new Password: <input type="text" name="user">
+				</p>
+
+			<h2>Change Email</h2>				
+				<p>Enter new email: <input type="text" name="user"></p>
+
+			<h2>Delete Account</h2>	
+			
+            <p>Yes&nbsp;<input type="radio" name = "delete" value = "yes">&nbsp;
+			No&nbsp;<input type = "radio" name = "delete" value = "no"></p>
+            
+            
+            <input type="submit">
+			</form>
+                
+        </div>
+    </body>
+</html>

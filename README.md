@@ -1,5 +1,10 @@
 # Comp1536Assignment
 
+MEMO 2
+
+I have completely reorganized all of the files so its a bit easier to look at. The account folder
+holds all account level files, and the list folder holds the list level files.
+
 MEMO 1
 
 For all pages with a header, all non-header content must be contained in a 'div class="container"'

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        
+        <!-- Added prototype 'link' attribute -->
+        <link rel="stylesheet" type="text/css" href="../Style/style_Project.css">
+
+        <title>Share List</title>
+    </head>
+    <body>
+        <header>
+            <ul class = "accheader">
+				<li id = "hlogo"><a href="../Account/accounthome.html" id = "hlogo"><img src="../images/header_logo.png" alt="Logo"/></a></li>
+				<li class = "right"><a href = "../index.html">Log Out</a></li>
+				<li class = "right"><a href = "../Account/accountsettings.html">Account Settings</a></li>
+			</ul>
+			
+        </header>
+		
+        <div class = "outermain">
+			
+			<ul class = "listheader">
+                <li><a href = "addmember.html">Add Member</a></li>
+                <li><a href = "changelog.html">Changelog</a></li>
+                <li><a href = "listsettings.html">List Settings</a></li>
+            </ul>
+			
+			<div class = "innermain">			
+			<h1>Current Members</h1>
+
+				<div id="tablemember">
+					<table>
+						<thead>
+							<tr>
+								<th>Name</th>
+								<th>Mail</th>							
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>User1</td>
+								<td>Mail1</td>
+							</tr>
+							<tr>
+								<td>User2</td>
+								<td>Mail2</td>
+							</tr>
+							<tr>
+								<td>User3</td>
+								<td>Mail3</td>
+							</tr>
+							<tr>
+								<td>User4</td>
+								<td>Mail4</td>
+							</tr>
+							<tr>
+								<td>User5</td>
+								<td>Mail5</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				
+				<h2>Add New Member</h2>	
+				<form action="http://webdevfoundations.net/scripts/formdemo.asp">
+					<h3>Email Address: </h3>
+						<input type="text" name="user" placeholder="Email">
+					
+					<input type="submit">
+				</form>	
+            </div>
+
+		</div>
+    </body>
+</html>

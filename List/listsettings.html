@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        
+        <!-- Added prototype 'link' attribute -->
+        <link rel="stylesheet" type="text/css" href="../Style/style_Project.css">
+
+        <title>Home</title>
+		
+    </head>
+    <body>
+	
+	
+        <header>
+		
+            <ul class = "accheader">
+				<li id = "hlogo"><a href="../Account/accounthome.html" id = "hlogo"><img src="../images/header_logo.png" alt="Logo"/></a></li>
+				<li class = "right"><a href = "../index.html">Log Out</a></li>
+				<li class = "right"><a href = "../Account/accountsettings.html">Account Settings</a></li>
+			</ul>
+			
+	        			
+        </header>
+
+        <div class = "outermain">
+			
+			<ul class = "listheader">
+                <li><a href = "addmember.html">Add Member</a></li>
+                <li><a href = "changelog.html">Changelog</a></li>
+                <li><a href = "listsettings.html">List Settings</a></li>
+            </ul>	
+			
+			<div class = "innermain">
+            
+            <h1>List Settings</h1>
+              
+			</div>			
+             <form action="http://webdevfoundations.net/scripts/formdemo.asp">
+			<p>Enter current password to make changes: <br>
+			<input type="text" name="user"></p>
+             </form>
+			<h2>List Name</h2>
+			
+			<h3>Category1</h3>
+			
+			<p>Add&nbsp;<input type="radio" name = "delete" value = "Add">&nbsp;
+			Delete&nbsp;<input type = "radio" name = "delete" value = "Delete"></p>
+			
+			<h3>Category2</h3>
+			
+			<p>Add&nbsp;<input type="radio" name = "delete" value = "Add">&nbsp;
+			Delete&nbsp;<input type = "radio" name = "delete" value = "Delete"></p>
+			
+			<h3>Category3</h3>
+			
+			<p>Add&nbsp;<input type="radio" name = "delete" value = "Add">&nbsp;
+			Delete&nbsp;<input type = "radio" name = "delete" value = "Delete"></p>
+			
+			<h2>New Category</h2>				
+				<p>Enter new category: <input type="text" name="user"></p>
+				
+			<h2>Remove Member</h2>	
+			<h3>Member1</h3>
+			
+			<form action="http://webdevfoundations.net/scripts/formdemo.asp">
+            <input type="checkbox" name="Member" value="Remove">Remove<br>
+             </form>
+			<h3>Member2</h3>
+			
+			<form action="http://webdevfoundations.net/scripts/formdemo.asp">
+            <input type="checkbox" name="Member" value="Remove">Remove<br>
+			</form>
+			<h3>Member3</h3>
+			
+			<form action="http://webdevfoundations.net/scripts/formdemo.asp">
+            <input type="checkbox" name="Member" value="Remove">Remove<br>
+             </form>
+			<h2>Delete List</h2>	
+			
+            <p>Yes&nbsp;<input type="radio" name = "delete" value = "yes">&nbsp;
+			No&nbsp;<input type = "radio" name = "delete" value = "no"></p>
+			
+			<input type="submit">
+			</form>
+        </div>
+    </body>
+</html>

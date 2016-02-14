@@ -1,22 +1,35 @@
-<!DOCTYPE html>
-
 <html lang="en">
     <head>
         <meta charset="utf-8" />
+
         <!-- Added prototype 'link' attribute -->
         <link rel="stylesheet" type="text/css" href="Style/style_Project.css">
-    
-		<title>Sign Up</title>
-    </head>
-    <body>
-        <header>
-            <a href="index.html"><img src="Project Files/gross_foods.png" alt="Logo"/></a>
-        </header>
 
-        <div id= signup>
-            <form>
+        <link href='https://fonts.googleapis.com/css?family=Roboto:400,100italic' rel='stylesheet' type='text/css'>
+
+        <title>Website Title - Login</title>
+    </head>
+
+    <body id="loginpage">
+        <div id = "top">
+        <div id="center">
+        <div id="background">
+            <img src ="images/login_background.gif" alt ="background" />
+        </div>
+        </div>
+
+        <div title ="logo" id="logo">
+            <img src ="images/newlogo.png" alt ="logo" />
+        </div>
+
+        <div title ="tagline" id="tagline">
+            <p>Quick and easy sharable lists.</p>
+        </div>
+
+        <div title ="Login" id ="login">
+            <form action = "account/accounthome.html" method = "POST">
                 <fieldset>
-                    <legend>Sign up</legend>
+                   <legend>Sign up</legend>
 
                     <p>
                     <input type = "text" name = "name1" placeholder = "First Name"></br>
@@ -32,15 +45,41 @@
 
 		
                     <p>
-                    <input type = "password" name = "password2" placeholder = "Password"></p>
-
-                    
-		<div id= createaccount>			
+                    <input type = "password" name = "password2" placeholder = "Re-enter Password"></p>
+		
 					<p><input type="submit" value="Create Account"></p>
                 </fieldset>
             </form>
         </div>
         </div>
+
+        <div title ="About" id ="about">
+            <h1>About Us</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi in lacinia arcu. Nullam 
+                eros eros, blandit quis nulla hendrerit, laoreet viverra libero. Integer id mattis 
+                risus. Cras mattis vulputate ultricies. Integer libero metus, sollicitudin sit amet 
+                diam at, interdum facilisis quam. In sit amet malesuada nunc. Nulla facilisi. 
+                Curabitur odio ligula, rhoncus vitae lobortis sed, sodales eget purus. Aliquam eros 
+                dui, facilisis vel rutrum sit amet, pulvinar quis diam. Vestibulum dignissim eros 
+                urna, id auctor ante vulputate vitae. Donec id rhoncus est. Quisque dapibus nisl 
+                nec mauris mattis, et accumsan metus euismod. Nullam non bibendum elit.</p>
+            <p>Aliquam in dolor pharetra magna hendrerit efficitur quis quis odio. Pellentesque eu 
+                odio sollicitudin, facilisis purus ac, faucibus mi. Morbi eleifend tincidunt varius. 
+                Nulla vel quam eu lorem porta ornare et vel urna. Nam sollicitudin, arcu ac viverra 
+                pulvinar, libero risus lobortis lectus, vel congue tortor eros nec dolor. Vivamus 
+                pretium elementum justo. Praesent efficitur ante mauris, sed viverra eros ornare nec. 
+                Aliquam eu sodales mi. Suspendisse auctor elementum dolor, vel imperdiet arcu mollis 
+                at. Nulla laoreet viverra rhoncus. Aliquam fringilla condimentum nibh. Sed viverra 
+                libero sed dui accumsan, sit amet egestas diam placerat.</p>
+            <p>Phasellus fringilla arcu vehicula, lacinia ipsum id, pulvinar erat. Integer finibus 
+                ornare lorem dictum dapibus. In ac dolor ipsum. In rutrum auctor nunc, sed vulputate 
+                augue volutpat non. Mauris at tempus velit. Ut tortor enim, faucibus et ante vel, 
+                eleifend gravida tellus. Nullam porta fermentum nibh et auctor. Cras augue ligula, 
+                tristique aliquam sagittis ut, consectetur vitae nisl. Sed at ligula ante. Duis 
+                egestas varius efficitur. Proin vitae convallis orci. Nulla justo quam, tincidunt non 
+                massa non, vehicula pulvinar mi.</p>
         
+        </div>
+
     </body>
 </html>

@@ -1,6 +1,6 @@
 body {
 	font-family: 'Roboto', sans-serif;
-	background-color: #56BC8A;
+	background-color: white;
 	color: black;
     margin: auto;
 }
@@ -22,6 +22,10 @@ div#about {
 }
 
 /* Login Page */
+
+body#loginpage {
+    background-color: #56BC8A;
+}
 
 div#logo {
     padding: 15px;
@@ -63,6 +67,12 @@ div#about h1 {
     color: white;
 }
 
+div#top {
+    display:  flexbox;
+    flex-flow: column;
+    height: 100vh;
+}
+
 /* Form Settings */
 
 fieldset {
@@ -78,6 +88,7 @@ legend {
 input[type=submit] {
     background-color: #55E4EF;
     border-radius: 2px;
+	margin: 15px 0px 0px 15px;
     padding: 10px 15px; 
     border: none;
     color: rgba(0,0,0,0.45);
@@ -110,6 +121,7 @@ input[type=submit].add {
 input[type=email] {
     border: 2px white;
     border-radius: 2px;
+	margin: 15px 0px 0px 15px;
     padding: 10px 15px;
     font-size: 15px;
     width: 220px;   
@@ -128,6 +140,7 @@ input[type=email]:focus {
 input[type=password] {
     border: none;
     border-radius: 2px;
+	margin: 15px 0px 0px 15px;
     padding: 10px 15px;
     font-size: 15px;
     width: 220px;    
@@ -146,7 +159,8 @@ input[type=password]:focus {
 input[type=text] {
     border: 2px white;
     border-radius: 2px;
-    padding: 10px 15px;
+	margin: 15px 0px 0px 15px;
+    padding: 10px 15px 10px 10px;
     font-size: 15px;
     width: 220px;   
 }
@@ -164,6 +178,7 @@ input[type=text]:focus {
 /* Account Header */
 
 ul.accheader {
+	
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
@@ -210,17 +225,17 @@ ul.listheader {
 	margin: 0;
 	padding: 0;
     position: fixed;
-	width: 100%;
+	width: 70%;
 	height: 20px;
+	display: table;
 	overflow: hidden;
 	background-color: #EEEEEE;
-    display: table;	
 }
 
 ul.listheader li {
 	display: table-cell;
 	text-align: center;
-    width:  33%;
+	width: 33%;
 }
 
 ul.listheader li a {
@@ -232,6 +247,7 @@ ul.listheader li a {
 }
 
 ul.listheader li a:hover {
+	height: 18px;
     border-bottom-width: 2px;
     border-bottom-color: #808080;
     border-bottom-style: solid;
@@ -243,70 +259,50 @@ ul.listheader li a:hover {
 
 
 /* General */
-
-
-div.container {
-    margin-top: 60px;
-}
-
-/* Sign Up */
-
-#signup {
-	width: 300px;
+div.outermain {
+	position: relative;
+	margin-top: 52px;
+	width: 70%;
+	margin-left: 15%;
 	margin-right: auto;
-	margin-left: auto;
+	background-color: #EEEEEE;
+	height: 100vh;	
 }
 
-#password2{
-	padding: 15px; 
-}
-/* The element to apply the animation to */
-/* #createaccount {
-    width: 100px;
-    height: 100px;
-    position: relative;
-    animation-name: example;
-    animation-duration: 4s;
+div.innermain {
+	padding-top: 20px;
 }
 
-/* The animation code */
-
- /* List Main */
-
-#listmain h1 {
-	
-	margin: 100px 10px 0px 100px;
-	padding: 10px 10px 10px 10px;
-} 
-#listmain h2 {
-	margin: 0px 0px 0px 80px;	
+/* Recent changes by Kuanysh */
+div.outermain {
+	position: relative;
+	margin: 52px auto 0px 15%;
+	width: 70%;
+	background-color: #EEEEEE;
+	height: 100h;	
 }
-#listmain h3 {
-	margin: 0px 0px 0px 80px;
-}
-#listmain ul{
-	padding: 10px 10px 0 10px;
-	margin: 0 0 10px 80px;
-	list-style-type: none;
-}
-#listmain a:link {
-	text-decoration: none;
-}
-#listmain a:visited {
-	color: #000000;
-}
-#listmain a:hover{
-	color: #808080;
-}
-#listmain li{
-	display: block;
-	margin: 5px 0 5px 0;
+div.innermain {
+	margin: 0px 0px 0px 50px;
+	padding-top: 10px;
 }
 
-#listmain img {
-	margin: 0px 0px 0px 0px;
-	float: left;
-	width: 20px;
+
+/*  list.html */
+#list img {
+	padding: 1px;
 	height: 20px;
+	width: 20px;
 }
-
+.space img{
+	margin: 0 0 0 400px;
+}
+.addsign img {
+	padding: 2px;
+	margin: 0 0 0 60%;
+}
+/*  event.html */
+#event img {
+	padding: 1px;
+	height: 20px;
+	width: 20px;
+}
