@@ -35,6 +35,8 @@ div#center {
     width: 1440px;
         
 }
+
+/*Resizing window screws up backgroub image. NEEDS WORK*/
 div#background {
     position: absolute;
     z-index: -1; 
@@ -48,7 +50,7 @@ div#tagline {
     text-align: center;
     font-style: italic;
     font-size: 2em;
-    
+    color: white;
 }
 	
 div#login {
@@ -86,13 +88,13 @@ input[type=submit] {
     font-weight: bold;
     width: 250px;
     cursor: pointer;
-      
+    transition-duration: 0.2s;
 }
 input[type=submit]:hover {
     box-shadow: 0 5px 10px 0 rgba(0,0,0,0.15), 0 17px 80px 0 rgba(0,0,0,0.12);
     background-color: #3A9CA3;
     color: white;
-    transition-duration: 0.2s;
+    
 }
 
 input[type=submit]:focus {
