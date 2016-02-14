@@ -223,38 +223,42 @@ li#hlogo {
 
 ul.listheader {
 	list-style-type: none;
-	margin: 0;
+	margin-left: 10%;
 	padding: 0;
     position: fixed;
-	width: 70%;
+	width: 50%;
 	height: 20px;
 	display: table;
 	overflow: hidden;
 	background-color: #EEEEEE;
+    border-bottom: 1px, solid, #808080; /*want to add a thin 1px boader underneath all the list items but its not working*/
 }
 
 ul.listheader li {
 	display: table-cell;
 	text-align: center;
 	width: 33%;
+
 }
 
 ul.listheader li a {
 	display: block;
-    padding: 5px;
+    padding: 8px 18px 18px 18px;
 	height: 20px;
 	text-decoration: none;
 	color: #808080;
-	font-size: 100%;
-    font-weight: bold;
+	font-size: 1.1em;
+    font-weight: 500;
+    text-transform: uppercase;
 }
 
 ul.listheader li a:hover {
+    color: #3A9CA3;
 	height: 18px;
     border-bottom-width: 3px;
-    border-bottom-color: #808080;
+    border-bottom-color: #3A9CA3;
     border-bottom-style: solid;
-    font-weight:  bold;
+
 }
 
 /* accounthome.html */
@@ -264,7 +268,7 @@ ul.listheader li a:hover {
 /* General */
 div.outermain {
 	position: relative;
-	margin-top: 52px;
+	margin-top: 100px;
 	width: 70%;
 	margin-left: 15%;
 	margin-right: auto;
