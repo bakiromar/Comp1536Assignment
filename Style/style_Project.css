@@ -44,6 +44,7 @@ img.listbutton {
 
 body#loginpage {
     background-color: #56BC8A;
+    background-image:
 }
 
 div#logo {
@@ -58,6 +59,8 @@ div#center {
     width: 1440px;
         
 }
+
+/*Resizing window screws up backgroub image. NEEDS WORK*/
 div#background {
     position: absolute;
     z-index: -1; 
@@ -71,7 +74,7 @@ div#tagline {
     text-align: center;
     font-style: italic;
     font-size: 2em;
-    
+    color: white;
 }
 	
 div#login {
@@ -123,13 +126,13 @@ input[type=submit] {
     font-weight: bold;
     width: 250px;
     cursor: pointer;
-      
+    transition-duration: 0.2s;
 }
 input[type=submit]:hover {
     box-shadow: 0 5px 10px 0 rgba(0,0,0,0.15), 0 17px 80px 0 rgba(0,0,0,0.12);
     background-color: #3A9CA3;
     color: white;
-    transition-duration: 0.2s;
+    
 }
 
 input[type=submit]:focus {
@@ -143,7 +146,7 @@ input[type=submit].add {
 }
 
 input[type=email] {
-    border: 2px white;
+    border: 2px ;
     border-radius: 2px;
 	margin: 15px 0px 0px 15px;
     padding: 10px 15px;
@@ -265,15 +268,17 @@ ul.listheader li {
 
 ul.listheader li a {
 	display: block;
+    padding: 5px;
 	height: 20px;
 	text-decoration: none;
 	color: #808080;
 	font-size: 100%;
+    font-weight: bold;
 }
 
 ul.listheader li a:hover {
 	height: 18px;
-    border-bottom-width: 2px;
+    border-bottom-width: 3px;
     border-bottom-color: #808080;
     border-bottom-style: solid;
     font-weight:  bold;
@@ -307,6 +312,28 @@ a.additem img {
 
 /* Settings */
 
+
 div.list#settings {
 	width: 50%;
 }
+
+/*  list.html */
+#list img {
+	padding: 1px;
+	height: 20px;
+	width: 20px;
+}
+.space img{
+	margin: 0 0 0 400px;
+}
+.addsign img {
+	padding: 2px;
+	margin: 0 0 0 60%;
+}
+/*  event.html */
+#event img {
+	padding: 1px;
+	height: 20px;
+	width: 20px;
+}
+
