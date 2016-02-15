@@ -44,7 +44,6 @@ img.listbutton {
 
 body#loginpage {
     background-color: #56BC8A;
-    background-image:
 }
 
 div#logo {
@@ -88,8 +87,6 @@ div#about h1 {
 }
 
 div#top {
-    display:  flexbox;
-    flex-flow: column;
     height: 100vh;
 }
 
@@ -284,6 +281,33 @@ ul.listheader li a:hover {
     font-weight:  bold;
 }
 
+/* Account Home */
+
+ul.indent {
+	list-style-type: none;
+}
+
+ul.indent a {
+	color: black;
+	text-decoration: none;
+}
+
+ul.indent a:hover {
+	text-decoration: underline; 
+}
+
+img.listbutton#listhome {
+	width: 30px;
+	height: 30px;
+
+}
+
+li.addlist {
+	background: url(../images/add_extra_small.png) left center no-repeat;
+	padding-left: 30px;
+	
+	
+}
 
 /* Lists */
 
@@ -317,23 +341,4 @@ div.list#settings {
 	width: 50%;
 }
 
-/*  list.html */
-#list img {
-	padding: 1px;
-	height: 20px;
-	width: 20px;
-}
-.space img{
-	margin: 0 0 0 400px;
-}
-.addsign img {
-	padding: 2px;
-	margin: 0 0 0 60%;
-}
-/*  event.html */
-#event img {
-	padding: 1px;
-	height: 20px;
-	width: 20px;
-}
 

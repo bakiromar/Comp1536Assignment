@@ -21,30 +21,32 @@
         </header>
 
         <div class = "outermain">
+		<div class = "innermain">
 			<h1>Account Settings</h1>	
 			
-			<form action="http://webdevfoundations.net/scripts/formdemo.asp">
+			<form action="http://webdevfoundations.net/scripts/formdemo.asp" method = "POST">
 			<p>Enter current password to make changes: <br>
-			<input type="text" name="user"></p>
+			<input type="password" name="password"></p>
             
 			<h2>Change Password</h2>
-				<p>Enter new Password: <input type="text" name="user">
+				<p>Enter new Password: <input type="password" name="newpass1">
 				<br>
-				Re-Enter new Password: <input type="text" name="user">
+				Re-Enter new Password: <input type="password" name="newpass1">
 				</p>
 
 			<h2>Change Email</h2>				
-				<p>Enter new email: <input type="text" name="user"></p>
+				<p>Enter new email: <input type="email" name="newemail"></p>
 
 			<h2>Delete Account</h2>	
 			
             <p>Yes&nbsp;<input type="radio" name = "delete" value = "yes">&nbsp;
-			No&nbsp;<input type = "radio" name = "delete" value = "no"></p>
+			No&nbsp;<input type = "radio" name = "delete" value = "no" checked></p>
             
             
             <input type="submit">
 			</form>
-                
+        
+		</div>
         </div>
     </body>
 </html>
