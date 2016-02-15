@@ -27,7 +27,7 @@ div.outermain {
 }
 
 div.innermain {
-	padding-top: 20px;
+	padding-top: 60px;
 	padding-bottom: 50px;
 	margin-left: 10%;
 	margin-right: 10%;
@@ -212,7 +212,8 @@ ul.accheader {
 	width: 100%;
 	height: 52px;
 	overflow: hidden;
-	background-color: #56BC8A;	
+	background-color: #56BC8A;
+    box-shadow: 0 2px 7px #888888;	
 }
 
 ul.accheader li {
@@ -224,15 +225,17 @@ ul.accheader li {
 ul.accheader li a {
 	display: block;
 	width: 152px;
-	height: 52px;
+	height: 37px; /*broke the logo hover*/
 	text-decoration: none;
-	color: #F5F5F5;
+	color: white;
 	font-size: 120%;
+    transition:  .25s;
 }
 
 ul.accheader li a:hover {
-	background-color: #E8F5E9;
-	color: #808080;
+    background-color: #4DA87C;
+	color: white;
+ 
 }
 
 li.right a {
@@ -247,38 +250,44 @@ li#hlogo {
 
 ul.listheader {
 	list-style-type: none;
-	margin: 0;
+	margin-left: 10%;
 	padding: 0;
     position: fixed;
-	width: 70%;
+	width: 50%;
 	height: 20px;
 	display: table;
 	overflow: hidden;
 	background-color: #EEEEEE;
+    border-bottom: 1px, solid, #808080; /*want to add a thin 1px boader underneath all the list items but its not working*/
 }
 
 ul.listheader li {
 	display: table-cell;
 	text-align: center;
 	width: 33%;
+
 }
 
 ul.listheader li a {
 	display: block;
-    padding: 5px;
+    padding: 5px 18px 18px 18px;
 	height: 20px;
 	text-decoration: none;
 	color: #808080;
-	font-size: 100%;
-    font-weight: bold;
+	font-size: 1.1em;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: .08s;
 }
 
 ul.listheader li a:hover {
+    color: #3A9CA3;
 	height: 18px;
     border-bottom-width: 3px;
-    border-bottom-color: #808080;
+    border-bottom-color: #3A9CA3;
     border-bottom-style: solid;
-    font-weight:  bold;
+   
+
 }
 
 /* Account Home */
@@ -312,9 +321,25 @@ li.addlist {
 /* Lists */
 
 
+<<<<<<< HEAD
+/* General */
+div.outermain {
+	position: relative;
+	margin-top: 100px;
+	width: 70%;
+	margin-left: 15%;
+	margin-right: auto;
+	background-color: #EEEEEE;
+	height: 100vh;
+    border-right-style: solid; 	
+    border-left-style: solid; 
+    border-color: red;
+    border-width: 100px;
+
 span.right {
 	float: right;
 	height: 20px;
+
 }
 div.list ul li {
 	padding: 5px 0px;
