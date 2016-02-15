@@ -28,24 +28,29 @@
                 <li><a href = "listsettings.html">List Settings</a></li>
             </ul>
 			
-			<div class = "innermain">			
-			<h1>Add Item</h1>
+			<div class = "innermain">
+
+			<h1><a href = "list.html">List Name</a></h1>
+			<h2>Add Item</h2>
 					<h3>Category:</h3>
 					
-						<form action="http://webdevfoundations.net/scripts/formdemo.asp">
-							<select type="list" id="category">
-								<option value="#">Produce</option>  
-								<option value="#">Meat/Dairy</option>
-								<option value="#">Baked Goods</option>
-								<option value="#">Other</option>
-							</select>
-						</form>
+					<form action="http://webdevfoundations.net/scripts/formdemo.asp">
+						<select type="list" id="category">
+							<option value="#">Produce</option>  
+							<option value="#">Meat/Dairy</option>
+							<option value="#">Baked Goods</option>
+							<option value="#">Other</option>
+						</select>
+						
 			
 					<h3>Item Name:</h3>
 						<input type = "text" placeholder = "Item Name">
 						
-					<h5>Add Picture</h5>			
-					<a href="#"><img src="../images/add_small.png" alt="Plus Sign" width="40px" height="40px"></a>
+					<h3>Add Picture</h3>			
+					<p><a href="#"><div id = "addimage" ><img src="../images/add_small.png" alt="Plus Sign"></div></a></p>
+					
+					<input type = "submit" value = "Add Item" name = "additem">
+					</form>
 			</div>
 
 		</div>
