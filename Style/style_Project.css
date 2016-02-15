@@ -227,15 +227,17 @@ ul.accheader li {
 ul.accheader li a {
 	display: block;
 	width: 152px;
-	height: 52px;
+	height: 37px; /*broke the logo hover*/
 	text-decoration: none;
-	color: #F5F5F5;
+	color: white;
 	font-size: 120%;
+    transition:  .25s;
 }
 
 ul.accheader li a:hover {
-	background-color: #E8F5E9;
-	color: #808080;
+    background-color: #4DA87C;
+	color: white;
+ 
 }
 
 li.right a {
