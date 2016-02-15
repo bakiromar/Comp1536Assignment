@@ -27,7 +27,7 @@ div.outermain {
 }
 
 div.innermain {
-	padding-top: 60px;
+	padding-top: 20px;
 	padding-bottom: 50px;
 	margin-left: 10%;
 	margin-right: 10%;
@@ -44,6 +44,7 @@ img.listbutton {
 
 body#loginpage {
     background-color: #56BC8A;
+    background-image:
 }
 
 div#logo {
@@ -87,6 +88,8 @@ div#about h1 {
 }
 
 div#top {
+    display:  flexbox;
+    flex-flow: column;
     height: 100vh;
 }
 
@@ -212,8 +215,8 @@ ul.accheader {
 	width: 100%;
 	height: 52px;
 	overflow: hidden;
-	background-color: #56BC8A;
-    box-shadow: 0 2px 7px #888888;	
+	background-color: #56BC8A;	
+	box-shadow: 0 2px 7px #888888;
 }
 
 ul.accheader li {
@@ -225,17 +228,16 @@ ul.accheader li {
 ul.accheader li a {
 	display: block;
 	width: 152px;
-	height: 37px; /*broke the logo hover*/
+	height: 52px;
 	text-decoration: none;
 	color: white;
 	font-size: 120%;
-    transition:  .25s;
+	transition: .25s;
 }
 
 ul.accheader li a:hover {
-    background-color: #4DA87C;
-	color: white;
- 
+	background-color: #4DA87C;
+	color: #white;
 }
 
 li.right a {
@@ -250,96 +252,53 @@ li#hlogo {
 
 ul.listheader {
 	list-style-type: none;
-	margin-left: 10%;
+	margin: 0;
 	padding: 0;
     position: fixed;
-	width: 50%;
+	width: 70%;
 	height: 20px;
 	display: table;
 	overflow: hidden;
 	background-color: #EEEEEE;
-    border-bottom: 1px, solid, #808080; /*want to add a thin 1px boader underneath all the list items but its not working*/
+
 }
 
 ul.listheader li {
 	display: table-cell;
 	text-align: center;
 	width: 33%;
-
 }
 
 ul.listheader li a {
 	display: block;
-    padding: 5px 18px 18px 18px;
+    padding: 5px;
 	height: 20px;
 	text-decoration: none;
 	color: #808080;
 	font-size: 1.1em;
     font-weight: 500;
-    text-transform: uppercase;
-    transition: .08s;
+	text-transform: uppercase;
+	border-bottom-width: 1px;
+    border-bottom-color: #808080;
+    border-bottom-style: solid;	
 }
 
 ul.listheader li a:hover {
-    color: #3A9CA3;
-	height: 18px;
-    border-bottom-width: 3px;
+	height: 20px;
+	color: #3A9CA3;
+	border-bottom-width: 3px;
     border-bottom-color: #3A9CA3;
-    border-bottom-style: solid;
-   
+	border-bottom-style: solid;
 
 }
 
-/* Account Home */
-
-ul.indent {
-	list-style-type: none;
-}
-
-ul.indent a {
-	color: black;
-	text-decoration: none;
-}
-
-ul.indent a:hover {
-	text-decoration: underline; 
-}
-
-img.listbutton#listhome {
-	width: 30px;
-	height: 30px;
-
-}
-
-li.addlist {
-	background: url(../images/add_extra_small.png) left center no-repeat;
-	padding-left: 30px;
-	
-	
-}
 
 /* Lists */
 
 
-<<<<<<< HEAD
-/* General */
-div.outermain {
-	position: relative;
-	margin-top: 100px;
-	width: 70%;
-	margin-left: 15%;
-	margin-right: auto;
-	background-color: #EEEEEE;
-	height: 100vh;
-    border-right-style: solid; 	
-    border-left-style: solid; 
-    border-color: red;
-    border-width: 100px;
-
 span.right {
 	float: right;
 	height: 20px;
-
 }
 div.list ul li {
 	padding: 5px 0px;
@@ -366,4 +325,22 @@ div.list#settings {
 	width: 50%;
 }
 
-
+/*  list.html */
+#list img {
+	padding: 1px;
+	height: 20px;
+	width: 20px;
+}
+.space img{
+	margin: 0 0 0 400px;
+}
+.addsign img {
+	padding: 2px;
+	margin: 0 0 0 60%;
+}
+/*  event.html */
+#event img {
+	padding: 1px;
+	height: 20px;
+	width: 20px;
+}
