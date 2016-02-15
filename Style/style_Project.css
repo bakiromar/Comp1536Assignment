@@ -316,8 +316,11 @@ li.addlist {
 	padding-left: 30px;
 }
 
-/* Lists */
+/* Add List */
 
+
+
+/* Lists */
 
 span.right {
 	float: right;
@@ -342,7 +345,6 @@ a.additem img {
 }
 
 /* Settings */
-
 
 div.list#settings {
 	width: 50%;
