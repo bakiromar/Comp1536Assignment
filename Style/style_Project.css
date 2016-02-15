@@ -209,6 +209,15 @@ input[type=text]:focus {
     outline-width: 0;
 }
 
+select {
+	border: 2px white;
+	border-radius: 2px;
+	margin: 15px 0px 0px 15px;
+    padding: 10px 15px 10px 10px;
+	font-size: 1.1em;
+	width: 220px;
+}
+
 /* Account Header */
 
 ul.accheader {
