@@ -44,7 +44,6 @@ img.listbutton {
 
 body#loginpage {
     background-color: #56BC8A;
-    background-image:
 }
 
 div#logo {
@@ -278,6 +277,7 @@ ul.listheader li a {
 	font-size: 1.1em;
     font-weight: 500;
     text-transform: uppercase;
+    transition: .08s;
 }
 
 ul.listheader li a:hover {
@@ -286,6 +286,7 @@ ul.listheader li a:hover {
     border-bottom-width: 3px;
     border-bottom-color: #3A9CA3;
     border-bottom-style: solid;
+   
 
 }
 
@@ -302,7 +303,11 @@ div.outermain {
 	margin-left: 15%;
 	margin-right: auto;
 	background-color: #EEEEEE;
-	height: 100vh;	
+	height: 100vh;
+    border-right-style: solid; 	
+    border-left-style: solid; 
+    border-color: red;
+    border-width: 100px;
 
 span.right {
 	float: right;
