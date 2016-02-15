@@ -13,7 +13,7 @@
        <header>
 			
             <ul class = "accheader">
-				<li id = "hlogo"><a href="../Account/accounthome.html" id = "hlogo"><img src="../images/header_logo.png" alt="Logo"/></a></li>
+				<li id = "hlogo"><a href="../Account/accounthome.html"><img src="../images/header_logo.png" alt="Logo"/></a></li>
 				<li class = "right"><a href = "../index.html">Log Out</a></li>
 				<li class = "right"><a href = "../Account/accountsettings.html">Account Settings</a></li>
 			</ul>
@@ -35,7 +35,7 @@
 					<h3>Category:</h3>
 					
 					<form action="http://webdevfoundations.net/scripts/formdemo.asp" method = "POST">
-						<select type="list" id="category" name = "category">
+						<select id="category" name = "category">
 							<option value="produce">Produce</option>  
 							<option value="meat/dairy">Meat/Dairy</option>
 							<option value="bakedgoods">Baked Goods</option>
@@ -47,7 +47,7 @@
 						<input type = "text" placeholder = "Item Name" name = "itemname">
 						
 					<h3>Add Picture</h3>			
-					<p><a href="#"><div id = "addimage" ><img src="../images/add_small.png" alt="Plus Sign"></div></a></p>
+					<div id = "addimage" ><a href="#"><img src="../images/add_small.png" alt="Plus Sign"></a></div>
 					
 					<input type = "submit" value = "Add Item" name = "additem">
 					</form>

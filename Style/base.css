@@ -53,7 +53,6 @@ img.listbutton {
 
 body#loginpage {
     background-color: #56BC8A;
-    background-image:
 }
 
 div#logo {
@@ -253,7 +252,7 @@ ul.accheader li a {
 
 ul.accheader li a:hover {
 	background-color: #4DA87C;
-	color: #white;
+	color: white;
 }
 
 li.right a {
@@ -428,6 +427,6 @@ table.members tr:last-of-type {
 
 /* Settings */
 
-div.list#settings {
+div.list.settings {
 	width: 50%;
 }
