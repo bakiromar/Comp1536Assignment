@@ -368,6 +368,32 @@ a.additem img {
 	height: 80px;
 }
 
+/* Changelog */
+
+table.changelog {
+	width: 100%;
+	max-width: 700px;
+	text-align: center;
+	border-collapse: collapse;
+}
+
+table.changelog td:first-child {
+	width: 60%;
+}
+
+table.changelog thead {
+	border-bottom: 2px solid black;
+}
+
+table.changelog tr {
+	border-bottom: 1px solid #808080;
+	padding: 1px 0px;
+}
+
+table.changelog tr:last-of-type {
+	border-bottom: none;
+}
+
 /* Settings */
 
 div.list#settings {
