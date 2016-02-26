@@ -49,6 +49,14 @@ img.listbutton {
 	width: 20px;
 }
 
+p#error {
+	text-align: center;
+	color: red;
+	font-size: 80%;
+	margin-top: -16px;
+	margin-bottom: -30px;
+}
+
 /* Login Page */
 
 body#loginpage {

@@ -8,6 +8,7 @@
         <link rel="stylesheet" type="text/css" href="Style/base.css">
 
         <link href='https://fonts.googleapis.com/css?family=Roboto:400,100italic' rel='stylesheet' type='text/css'>
+		<script type = "text/javascript" src = "validate.js"></script>
 
         <title>Website Title - Login</title>
     </head>
@@ -27,6 +28,8 @@
         <div title ="tagline" id="tagline">
             <p>Quick and easy sharable lists.</p>
         </div>
+		
+		<p id = "error"></p>
 
         <div title ="Login" id ="login">
             <form action = "http://webdevfoundations.net/scripts/formdemo.asp" method = "POST">
@@ -34,17 +37,17 @@
                    <legend>Sign up</legend>
 
                     <p>
-                    <input type = "text" name = "firstname" placeholder = "First Name"><br>
+                    <input type = "text" name = "firstname" id = "fName" placeholder = "First Name" onblur = "nameValidate('fName')"><br>
 					
-                    <input type = "text" name = "lastname" placeholder = "Last Name"></p>
+                    <input type = "text" name = "lastname" id = "lName" placeholder = "Last Name" onblur = "nameValidate('lName')"></p>
 
                     <p>
-                    <input type = "email" name = "email" placeholder = "Email Address"></p>
+                    <input type = "email" name = "email" id = "email" placeholder = "Email Address" onblur = "emailValidate()"></p>
 
                     <p>
-                    <input type = "password" name = "password1" placeholder = "Password"><br>
+                    <input type = "password" name = "password1" id = "pass1" placeholder = "Password" onblur = "passValidate('pass1')"><br>
 
-                    <input type = "password" name = "password2" placeholder = "Re-enter Password"></p>
+                    <input type = "password" name = "password2" id = "pass2" placeholder = "Re-enter Password" onblur = "passValidate('pass2')"></p>
 		
 					<p><input type="submit" value="Create Account"></p>
                 </fieldset>
